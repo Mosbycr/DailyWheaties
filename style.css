@@ -1,0 +1,77 @@
+body { 
+  background: url("images/sunriseflowers.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.fontStyle {
+  font-family: "Viga", sans-serif;
+}
+
+.titleColor {
+  color: rgb(158, 80, 158);
+}
+
+.textShadow {
+  text-shadow: 1.5px 0px rgb(90, 43, 90);
+}
+
+.formBackColor {
+  background-color: rgb(255, 255, 231, 0.55);
+}
+
+#formHeader {
+  background-color:  rgb(255, 255, 231, 0.6);
+}
+
+.textColor {
+  color: rgb(6, 77, 136);
+}
+
+.formBorder {
+  border: .8px solid rgb(158, 80, 158, 0.7);
+}
+
+.submit {
+  background-color: white;
+}
+
+.card-header {
+  background-color:  rgb(255, 255, 231, 0.8);
+  font-size: 18px;
+}
+
+#quote  {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+#joke {
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.weather {
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#degrees {
+  font-size: 30px;
+}
+
+.backgroundYellow {
+  background-color: rgb(255, 255, 231, 0.7);
+}
+
+#eventFormTable {
+  background-color: rgb(232, 234, 247, .8);
+}
+
+.tableText {
+  font-size: 18px;
+}
+
+
+
+
+
