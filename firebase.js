@@ -1,7 +1,7 @@
 //$(document).ready(function() {
   
     var app_fireBase = {};
-  
+  (function(){
     var config = {
       apiKey: "AIzaSyAXhca23sAirMnTEGXxj9SO3UAmTqS8PmI",
       authDomain: "first-project-b1c73.firebaseapp.com",
@@ -14,7 +14,7 @@
     firebase.initializeApp(config);
    
     app_fireBase = firebase;
- 
+  })()
 
   //var database = firebase.database();
 
