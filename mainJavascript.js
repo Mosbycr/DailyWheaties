@@ -1,4 +1,4 @@
-//$(document).ready(function(){
+$(document).ready(function(){
 
 // $(".mainContainer").hide();
 // $("#personalizedMessage").hide();
@@ -88,6 +88,10 @@ $("#submit").on("click", function() {
   event.preventDefault();
 
   userName = $("#nameInput").val();
+  city = $("#city")
+    .val()
+    .trim()
+    .toLowerCase();
 
   console.log("Name " + name);
 
@@ -122,6 +126,7 @@ $("#submit").on("click", function() {
     .ref("users/" + uid)
     .update({
       userName: userName,
+      city: city,
       userInterest: userInterest
     });
 
@@ -329,4 +334,4 @@ function getWeather(city, country) {
     $("#location").html(location);
   });
 }
-//});
+});
