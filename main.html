@@ -112,7 +112,7 @@
                     </div>
                     <div class="form-group col-12 col-md-12">
                         <label class="check">Check this box to bypass re-entering your information
-                            <input type="checkbox">
+                            <input id="check" type="checkbox">
                             <span class="checkmark"></span>
                         </label>
                     </div>
@@ -145,7 +145,7 @@
             </div>
         </div>
         <div class="row fontStyle text-center textColor mb-5">
-            <div class="col-md-6  weatherSection">
+            <div class="col-md-6  col-12 weatherSection">
                 <div class="card mb-4 textcolor backgroundYellow formBorder">
                     <div class="card-header text-center">
                         The Daily Window Check
@@ -161,13 +161,13 @@
                 </div>
             </div>
 
-            <div class="col-md-6" id="jokeSection">
+            <div class="col-md-6 col-12" id="jokeSection">
                 <div>
                     <div class="card mb-4 textcolor backgroundYellow formBorder">
                         <div class="card-header text-center">
                             The Daily Funny
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" id="size">
                             <p>
                                 <br />
                                 <span id="joke">"My wife told me to stop acting like a flamingo. So I put
@@ -181,7 +181,7 @@
         </div>
 
         <div class="row fontStyle">
-            <div class="col-md-12" id="eventSection">
+            <div class="col-12" id="eventSection">
                 <div class="card mb-4 textColor formBorder" id="eventFormTable">
                     <div class="card-header text-center">
                         Events Today in Your Area
@@ -208,10 +208,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    
+
 
     <div class="col-12 text-center">
-        <button onclick="mainApp.logOut()"  class="btn-lg bg-white textColor" id="logoutButton">LogOut</button>
+        <button onclick="mainApp.logOut()" class="btn btn-lg bg-white textColor fontStyle"id="logoutButton">LogOut</button>
+
     </div>
     </div>
     
@@ -220,8 +222,6 @@
 <script src="firebase.js"></script>
   <script src="mainJavascript.js"></script>
   <script src="grabData.js"></script>
-    
-    
     <script src="javascript.js"></script>
   </body>
 </html>
