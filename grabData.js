@@ -33,7 +33,7 @@ var mainApp = {};
                 $("#userName").text(snap.val().userName);
                 $("#city").text(snap.val().city);
                 $("#interest").text(snap.val().userInterest);
-                $("#city").text(snap.val().city);
+               
 
             });
 

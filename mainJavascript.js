@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  $(".mainContainer").hide();
+  $("#form").show();
   var firebase = app_fireBase;
   var i = 0;
   var jokesArray = [];
@@ -95,6 +97,9 @@ $(document).ready(function(){
     getQuote();
 
     getWeather(city, country);
+
+    $(".mainContainer").show();
+    $("#form").hide();
 
   });
 
