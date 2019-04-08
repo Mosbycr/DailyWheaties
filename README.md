@@ -7,7 +7,6 @@
   
 # Future fixes
 * Make the checkbox here to by-pass refilling this form working so that the user does not have to submit a new form upon entry every time. 
-* Hide the form upon submitting
 * Pull variables saved in the database and place into the api ajax calls so that the users page is populated without a form when they log-in.
 
 # Demo 
